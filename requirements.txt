@@ -1,0 +1,4 @@
+pydantic-settings
+pyppeteer
+textual-dev
+nest_asyncio
