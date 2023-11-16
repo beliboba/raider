@@ -111,7 +111,7 @@ class Bot:
 	async def start(self):
 		async with async_playwright() as p:
 			self.browser = await p.chromium.launch(
-				headless=False,
+				headless=True,
 				args=['--use-fake-device-for-media-stream', '--use-fake-ui-for-media-stream']
 			)
 			self.page = await self.browser.new_page()
