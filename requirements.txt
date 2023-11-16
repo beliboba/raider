@@ -1,4 +1,3 @@
-pydantic-settings
 pyppeteer
 textual
 nest_asyncio
